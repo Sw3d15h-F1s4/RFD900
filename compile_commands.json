@@ -1,0 +1,284 @@
+[
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\CDC.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\CDC.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\CDC.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\CDC.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\HardwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\HardwareSerial.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\HardwareSerial.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\HardwareSerial.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\HardwareSerial0.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\HardwareSerial0.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\HardwareSerial0.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\HardwareSerial0.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\HardwareSerial1.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\HardwareSerial1.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\HardwareSerial1.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\HardwareSerial1.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\HardwareSerial2.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\HardwareSerial2.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\HardwareSerial2.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\HardwareSerial2.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\HardwareSerial3.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\HardwareSerial3.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\HardwareSerial3.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\HardwareSerial3.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\IPAddress.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\IPAddress.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\IPAddress.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\IPAddress.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\PluggableUSB.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\PluggableUSB.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\PluggableUSB.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\PluggableUSB.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\Print.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\Print.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\Print.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\Print.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\Stream.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\Stream.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\Stream.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\Stream.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\Tone.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\Tone.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\Tone.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\Tone.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\USBCore.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\USBCore.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\USBCore.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\USBCore.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\WInterrupts.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\WInterrupts.c",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\WInterrupts.c",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\WInterrupts.c.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\WMath.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\WMath.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\WMath.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\WMath.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\WString.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\WString.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\WString.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\WString.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\abi.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\abi.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\abi.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\abi.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\hooks.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\hooks.c",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\hooks.c",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\hooks.c.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\main.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\main.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\main.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\new.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\new.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\new.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\new.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\wiring.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring.c",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring.c",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\wiring.c.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_analog.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_analog.c",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_analog.c",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_analog.c.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_digital.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_digital.c",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_digital.c",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_digital.c.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_extras.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_extras.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_extras.cpp",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_extras.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -mmcu=atmega2560 -x assembler-with-cpp -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega -c -o .pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_pulse.S.o C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_pulse.S",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_pulse.S",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_pulse.S.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_pulse.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_pulse.c",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_pulse.c",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_pulse.c.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_shift.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_shift.c",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore\\wiring_shift.c",
+        "output": ".pio\\build\\Upload_ISP\\FrameworkArduino\\wiring_shift.c.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\libf7e\\Wire\\TwoWire\\TwoWire.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src\\TwoWire\\TwoWire.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src\\TwoWire\\TwoWire.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libf7e\\Wire\\TwoWire\\TwoWire.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\Upload_ISP\\libf7e\\Wire\\TwoWire\\utility\\twi.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src\\TwoWire\\utility\\twi.c",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src\\TwoWire\\utility\\twi.c",
+        "output": ".pio\\build\\Upload_ISP\\libf7e\\Wire\\TwoWire\\utility\\twi.c.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\libf7e\\Wire\\USIWire\\USIWire.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src\\USIWire\\USIWire.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src\\USIWire\\USIWire.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libf7e\\Wire\\USIWire\\USIWire.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\Upload_ISP\\libf7e\\Wire\\USIWire\\utility\\USI_TWI_Master.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src\\USIWire\\utility\\USI_TWI_Master.c",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src\\USIWire\\utility\\USI_TWI_Master.c",
+        "output": ".pio\\build\\Upload_ISP\\libf7e\\Wire\\USIWire\\utility\\USI_TWI_Master.c.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\Upload_ISP\\libf7e\\Wire\\USIWire\\utility\\USI_TWI_Slave.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src\\USIWire\\utility\\USI_TWI_Slave.c",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src\\USIWire\\utility\\USI_TWI_Slave.c",
+        "output": ".pio\\build\\Upload_ISP\\libf7e\\Wire\\USIWire\\utility\\USI_TWI_Slave.c.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\lib87f\\MS5xxx\\MS5611.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio\\libdeps\\Upload_ISP\\MS5xxx\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega .pio\\libdeps\\Upload_ISP\\MS5xxx\\src\\MS5611.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": ".pio\\libdeps\\Upload_ISP\\MS5xxx\\src\\MS5611.cpp",
+        "output": ".pio\\build\\Upload_ISP\\lib87f\\MS5xxx\\MS5611.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\lib87f\\MS5xxx\\MS5xxx.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio\\libdeps\\Upload_ISP\\MS5xxx\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega .pio\\libdeps\\Upload_ISP\\MS5xxx\\src\\MS5xxx.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": ".pio\\libdeps\\Upload_ISP\\MS5xxx\\src\\MS5xxx.cpp",
+        "output": ".pio\\build\\Upload_ISP\\lib87f\\MS5xxx\\MS5xxx.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\lib184\\SPI\\SPI.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src\\SPI.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src\\SPI.cpp",
+        "output": ".pio\\build\\Upload_ISP\\lib184\\SPI\\SPI.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\Upload_ISP\\libed0\\SparkFun u-blox GNSS Arduino Library\\SparkFun_u-blox_GNSS_Arduino_Library.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\Upload_ISP\\SparkFun u-blox GNSS Arduino Library\\src\" -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega \".pio\\libdeps\\Upload_ISP\\SparkFun u-blox GNSS Arduino Library\\src\\SparkFun_u-blox_GNSS_Arduino_Library.cpp\"",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": ".pio\\libdeps\\Upload_ISP\\SparkFun u-blox GNSS Arduino Library\\src\\SparkFun_u-blox_GNSS_Arduino_Library.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libed0\\SparkFun u-blox GNSS Arduino Library\\SparkFun_u-blox_GNSS_Arduino_Library.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\Upload_ISP\\libe55\\Adafruit BusIO\\Adafruit_BusIO_Register.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\Upload_ISP\\Adafruit BusIO\" -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega \".pio\\libdeps\\Upload_ISP\\Adafruit BusIO\\Adafruit_BusIO_Register.cpp\"",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": ".pio\\libdeps\\Upload_ISP\\Adafruit BusIO\\Adafruit_BusIO_Register.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libe55\\Adafruit BusIO\\Adafruit_BusIO_Register.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\Upload_ISP\\libe55\\Adafruit BusIO\\Adafruit_I2CDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\Upload_ISP\\Adafruit BusIO\" -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega \".pio\\libdeps\\Upload_ISP\\Adafruit BusIO\\Adafruit_I2CDevice.cpp\"",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": ".pio\\libdeps\\Upload_ISP\\Adafruit BusIO\\Adafruit_I2CDevice.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libe55\\Adafruit BusIO\\Adafruit_I2CDevice.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\Upload_ISP\\libe55\\Adafruit BusIO\\Adafruit_SPIDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\Upload_ISP\\Adafruit BusIO\" -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega \".pio\\libdeps\\Upload_ISP\\Adafruit BusIO\\Adafruit_SPIDevice.cpp\"",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": ".pio\\libdeps\\Upload_ISP\\Adafruit BusIO\\Adafruit_SPIDevice.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libe55\\Adafruit BusIO\\Adafruit_SPIDevice.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\Upload_ISP\\liba53\\Adafruit Unified Sensor\\Adafruit_Sensor.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\Upload_ISP\\Adafruit Unified Sensor\" -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega \".pio\\libdeps\\Upload_ISP\\Adafruit Unified Sensor\\Adafruit_Sensor.cpp\"",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": ".pio\\libdeps\\Upload_ISP\\Adafruit Unified Sensor\\Adafruit_Sensor.cpp",
+        "output": ".pio\\build\\Upload_ISP\\liba53\\Adafruit Unified Sensor\\Adafruit_Sensor.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\Upload_ISP\\libb93\\Adafruit LSM303 Accel\\Adafruit_LSM303_Accel.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\Upload_ISP\\Adafruit LSM303 Accel\" \"-I.pio\\libdeps\\Upload_ISP\\Adafruit Unified Sensor\" \"-I.pio\\libdeps\\Upload_ISP\\Adafruit BusIO\" -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega \".pio\\libdeps\\Upload_ISP\\Adafruit LSM303 Accel\\Adafruit_LSM303_Accel.cpp\"",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": ".pio\\libdeps\\Upload_ISP\\Adafruit LSM303 Accel\\Adafruit_LSM303_Accel.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libb93\\Adafruit LSM303 Accel\\Adafruit_LSM303_Accel.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o \".pio\\build\\Upload_ISP\\lib6d4\\Adafruit LIS2MDL\\Adafruit_LIS2MDL.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio\\libdeps\\Upload_ISP\\Adafruit LIS2MDL\" \"-I.pio\\libdeps\\Upload_ISP\\Adafruit Unified Sensor\" \"-I.pio\\libdeps\\Upload_ISP\\Adafruit BusIO\" -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega \".pio\\libdeps\\Upload_ISP\\Adafruit LIS2MDL\\Adafruit_LIS2MDL.cpp\"",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": ".pio\\libdeps\\Upload_ISP\\Adafruit LIS2MDL\\Adafruit_LIS2MDL.cpp",
+        "output": ".pio\\build\\Upload_ISP\\lib6d4\\Adafruit LIS2MDL\\Adafruit_LIS2MDL.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\libe80\\SD\\File.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src\\File.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src\\File.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libe80\\SD\\File.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\libe80\\SD\\SD.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src\\SD.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src\\SD.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libe80\\SD\\SD.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\libe80\\SD\\utility\\Sd2Card.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src\\utility\\Sd2Card.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src\\utility\\Sd2Card.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libe80\\SD\\utility\\Sd2Card.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\libe80\\SD\\utility\\SdFile.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src\\utility\\SdFile.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src\\utility\\SdFile.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libe80\\SD\\utility\\SdFile.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\libe80\\SD\\utility\\SdVolume.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src\\utility\\SdVolume.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "C:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src\\utility\\SdVolume.cpp",
+        "output": ".pio\\build\\Upload_ISP\\libe80\\SD\\utility\\SdVolume.cpp.o"
+    },
+    {
+        "command": "C:\\Users\\samjt\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-g++.exe -o .pio\\build\\Upload_ISP\\src\\main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++17 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -DPLATFORMIO=60109 -DARDUINO_AVR_ATmega2560 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SD\\src \"-I.pio\\libdeps\\Upload_ISP\\Adafruit LIS2MDL\" \"-I.pio\\libdeps\\Upload_ISP\\Adafruit LSM303 Accel\" \"-I.pio\\libdeps\\Upload_ISP\\Adafruit Unified Sensor\" \"-I.pio\\libdeps\\Upload_ISP\\Adafruit BusIO\" \"-I.pio\\libdeps\\Upload_ISP\\SparkFun u-blox GNSS Arduino Library\\src\" -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\SPI\\src -I.pio\\libdeps\\Upload_ISP\\MS5xxx\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\libraries\\Wire\\src -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\cores\\MegaCore -IC:\\Users\\samjt\\.platformio\\packages\\framework-arduino-avr-megacore\\variants\\100-pin-arduino-mega src\\main.cpp",
+        "directory": "C:\\Users\\samjt\\Documents\\PlatformIO\\Projects\\RFD900",
+        "file": "src\\main.cpp",
+        "output": ".pio\\build\\Upload_ISP\\src\\main.cpp.o"
+    }
+]
