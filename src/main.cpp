@@ -2,10 +2,10 @@
 // Created by Montana University's NEBP eclipse team
 // Heavily modified by Sam Thuransky at Penn State NEBP
 
-
 #include "main.h"
 //**************************** SETUP ***************************
-void setup() {
+void setup()
+{
   // Set LED pins as outputs
   pinMode(PIN_PD2, OUTPUT); // GPS Status.
   pinMode(PIN_PD3, OUTPUT); // SD Card Status.
@@ -27,10 +27,11 @@ void setup() {
   accelMagSetup();
 }
 
-
-void gpsSetup() {
+void gpsSetup()
+{
   pulseLED(PIN_PD2, 4, 100);
-  do {
+  do
+  {
     pulseLED(PIN_PD2, 1, 500);
     Serial.println("GPS: trying 38400 baud");
     Serial2.begin(38400);
@@ -40,33 +41,40 @@ void gpsSetup() {
     Serial.println("GPS: trying 9600 baud");
     Serial2.begin(9600);
 
-    if (myGPS.begin(Serial2) == true) {
+    if (myGPS.begin(Serial2) == true)
+    {
       Serial.println("GPS: connected at 9600 baud, switching to 38400");
       myGPS.setSerialRate(38400);
       delay(100);
-    } else {
+    }
+    else
+    {
       // myGPS.factoryReset();
       delay(1500); // Wait a bit before trying again to limit the Serial output
     }
   } while (1);
   Serial.println("GPS serial connected");
-  myGPS.setUART1Output(COM_TYPE_UBX); // Set the UART port to output UBX only
-  myGPS.setI2COutput(COM_TYPE_UBX); // Set the I2C port to output UBX only (turn
-                                    // off NMEA noise)
-  myGPS.setDynamicModel(DYN_MODEL_AIRBORNE1g);   // Putting the GPS in flight mode.(airborne with
-                               // <2g acceleration)
-  myGPS.saveConfiguration();   // Save the current settings to flash and BBR
-  digitalWrite(PIN_PD2, HIGH); // Turn the GPS Status LED on.
+  myGPS.setUART1Output(COM_TYPE_UBX);          // Set the UART port to output UBX only
+  myGPS.setI2COutput(COM_TYPE_UBX);            // Set the I2C port to output UBX only (turn
+                                               // off NMEA noise)
+  myGPS.setDynamicModel(DYN_MODEL_AIRBORNE1g); // Putting the GPS in flight mode.(airborne with
+                                               // <2g acceleration)
+  myGPS.saveConfiguration();                   // Save the current settings to flash and BBR
+  digitalWrite(PIN_PD2, HIGH);                 // Turn the GPS Status LED on.
 }
 
-
-void sdCardSetup() {
+void sdCardSetup()
+{
   pulseLED(PIN_PD3, 4, 100);
 
-  if (!SD.begin(SDCS_PIN)) {
+  if (!SD.begin(SDCS_PIN))
+  {
     Serial.println("Card failed, or not present"); // don't do anything more:
-    while (1) {
-      pulseLED(PIN_PD3, 1, 500);
+    while (1)
+    {
+      delay(1000);
+      pulseLED(PIN_PD3, 2, 50);
+      delay(1000);
       pulseLED(PIN_PD3, SD.errorCode(), 100);
       if (SD.begin(SDCS_PIN))
         break;
@@ -85,11 +93,12 @@ void sdCardSetup() {
   digitalWrite(PIN_PD3, HIGH);
 }
 
-
-void accelMagSetup() {
+void accelMagSetup()
+{
   pulseLED(PIN_PD4, 4, 100);
 
-  if (!accel.begin()) {
+  if (!accel.begin())
+  {
     Serial.println("LSM303 not detected");
     while (1)
       pulseLED(PIN_PD4, 1, 500);
@@ -97,7 +106,8 @@ void accelMagSetup() {
   digitalWrite(PIN_PD4, HIGH);
 
   pulseLED(PIN_PD5, 4, 100);
-  if (!mag.begin()) {
+  if (!mag.begin())
+  {
     Serial.println("LSM303AGR not detected");
     while (1)
       pulseLED(PIN_PD5, 1, 500);
@@ -108,9 +118,10 @@ void accelMagSetup() {
   digitalWrite(PIN_PD5, HIGH);
 }
 
-
-void pulseLED(int pin, int count, int time) {
-  for (int i = 0; i < count; i++) {
+void pulseLED(int pin, int count, int time)
+{
+  for (int i = 0; i < count; i++)
+  {
     digitalWrite(pin, HIGH);
     delay(time);
     digitalWrite(pin, LOW);
@@ -118,8 +129,8 @@ void pulseLED(int pin, int count, int time) {
   }
 }
 
-
-void Read_GPS() {
+void Read_GPS()
+{
   SIV = myGPS.getSIV();
   FixType = myGPS.getFixType();
   latitude = myGPS.getLatitude();
@@ -136,33 +147,40 @@ void Read_GPS() {
   NedDownVel = myGPS.getNedDownVel();
 }
 
-
-void LED_Fix_Type() {
-  if (FixType == 0) {
+void LED_Fix_Type()
+{
+  if (FixType == 0)
+  {
     digitalWrite(PIN_PD6, LOW);
-  } else if (FixType == 2) {
+  }
+  else if (FixType == 2)
+  {
     digitalWrite(PIN_PD6, blink_GPS);
     blink_GPS = !blink_GPS;
-  } else if (FixType == 3) {
+  }
+  else if (FixType == 3)
+  {
     digitalWrite(PIN_PD6, HIGH);
   }
 }
 
-
-double analogReadScaled(uint8_t pin, uint16_t scale) {
-  double output = 0; 
-  for (int i = 0; i < 100; i++) {
+double analogReadScaled(uint8_t pin, uint16_t scale)
+{
+  double output = 0;
+  for (int i = 0; i < 100; i++)
+  {
     output += analogRead(pin);
   }
 
   output /= double(100);
   output *= scale;
   output /= double(1024);
-  
+
   return output;
 }
 
-void readAnalogSensors() {
+void readAnalogSensors()
+{
   Bat = analogReadScaled(BATT_PIN, 5);
   t3v3 = analogReadScaled(T3v3_PIN, 5);
   f5v = analogReadScaled(F5vS_PIN, 5);
@@ -173,27 +191,27 @@ void readAnalogSensors() {
 
   Aext = analogReadScaled(ETMP_PIN, 5000);
   Aext = ((Aext - 1034) / double(-5.58));
-
 }
 
-
-void Read_Pressure_Module() {
+void Read_Pressure_Module()
+{
   sensor.ReadProm();
   sensor.Readout();
   Pres_Temp = (sensor.GetTemp() / double(100));
   pressure = (sensor.GetPres() / double(100));
 }
 
-
-void Read_Dint_Temp() {
-  uint8_t data[2];
-  int16_t datac;
+void Read_Dint_Temp()
+{
   Wire.beginTransmission(0x48);
   Wire.write(0x00);
   Wire.endTransmission();
   delay(10);
   Wire.requestFrom(0x48, 2);
-  if (Wire.available() <= 2) { // checks bytes
+  if (Wire.available() <= 2)
+  { // checks bytes
+    uint8_t data[2];
+    int16_t datac;
     data[0] = Wire.read();
     data[1] = Wire.read();
     datac = ((data[0] << 8) | data[1]); // combines data to 16 bit
@@ -201,16 +219,17 @@ void Read_Dint_Temp() {
   }
 }
 
-
-void Read_Dext_Temp() {
-  uint8_t data[2];
-  int16_t datac;
+void Read_Dext_Temp()
+{
   Wire.beginTransmission(0x49);
   Wire.write(0x00);
   Wire.endTransmission();
   delay(10);
   Wire.requestFrom(0x49, 2);
-  if (Wire.available() <= 2) { // checks bytes
+  if (Wire.available() <= 2)
+  { // checks bytes
+    uint8_t data[2];
+    int16_t datac;
     data[0] = Wire.read();
     data[1] = Wire.read();
     datac = ((data[0] << 8) | data[1]); // combines data to 16 bit
@@ -218,8 +237,8 @@ void Read_Dext_Temp() {
   }
 }
 
-
-void Read_Accelerometer_Mag() {
+void Read_Accelerometer_Mag()
+{
   sensors_event_t event;
   accel.getEvent(&event); // gets measurement
   Acceleration_X = event.acceleration.x;
@@ -250,19 +269,21 @@ void Read_Accelerometer_Mag() {
   double a = magx * cos(pitchr) + sin(pitchr) * sin(rollr) * magy +
              magz * cos(rollr) * sin(pitchr);
   double b = magy * cos(rollr) - magz * sin(rollr);
-  double yaw = 180 * atan2(-b, a) / M_PI;
   Yaw = 180 * atan2(-b, a) / M_PI;
-  if (yaw < 0) {
-    yaw = 360 + yaw;
-  }
+  // double yaw = 180 * atan2(-b, a) / M_PI;
+  // if (yaw < 0)
+  // {
+  //   yaw = 360 + yaw;
+  // }
 }
 
-
 //***************Data Sending & Storing ************************
-void Store_Data() {
+void Store_Data()
+{
   File dataFile = SD.open("payload.csv", FILE_WRITE);
   // if the file is available, write to it:
-  if (dataFile) { // Write our data to the csv file
+  if (dataFile)
+  { // Write our data to the csv file
     dataFile.print(String(packet));
     dataFile.print(",");
     dataFile.print(String(SIV));
@@ -328,12 +349,14 @@ void Store_Data() {
     dataFile.close();
   }
   // if the file isn't open, pop up an error:
-  else {
+  else
+  {
     Serial.println("error");
   }
   dataFile.close();
 }
-void Send_Data() {
+void Send_Data()
+{
   Serial.print(packet);
   Serial.print(',');
   Serial.print(SIV);
@@ -401,7 +424,8 @@ void Send_Data() {
 }
 
 //*********************** MAIN LOOP ****************************
-void loop() {
+void loop()
+{
   pulseLED(PIN_PD7, 1, 100);
   Read_GPS();
   LED_Fix_Type();
