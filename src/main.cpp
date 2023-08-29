@@ -1,18 +1,7 @@
-/**
-D1
-D2 - +3.3V for other shit
-D3
-D4 - +5V for MCU and LSM303
-D5 - +5V for RADIO
-D6 - LED1 - 45 (PD2) - GPS
-D7 - LED2 - 46 (PD3) - SD CARD
-D8 - same as D2
-D9 - same as D4
-D10 - LED3 - 47 (PD4) - LSM303 accel
-D11 - LED4 - 48 (PD5) - LSM303 mag
-D12 - LED5 - 49 (PD6) - GPS status
-D13 - LED6 - 50 (PD7) - ticker
-**/
+// RFD900 Code
+// Created by Montana University's NEBP eclipse team
+// Heavily modified by Sam Thuransky at Penn State NEBP
+
 
 #include "main.h"
 //**************************** SETUP ***************************
@@ -37,7 +26,8 @@ void setup() {
   sdCardSetup(); // Also creates header for .csv
   accelMagSetup();
 }
-//**************************** Initilizations ******************
+
+
 void gpsSetup() {
   pulseLED(PIN_PD2, 4, 100);
   do {
@@ -69,14 +59,16 @@ void gpsSetup() {
   digitalWrite(PIN_PD2, HIGH); // Turn the GPS Status LED on.
 }
 
+
 void sdCardSetup() {
   pulseLED(PIN_PD3, 4, 100);
 
-  if (!SD.begin(chipSelect)) {
+  if (!SD.begin(SDCS_PIN)) {
     Serial.println("Card failed, or not present"); // don't do anything more:
     while (1) {
       pulseLED(PIN_PD3, 1, 500);
-      if (SD.begin(chipSelect))
+      pulseLED(PIN_PD3, SD.errorCode(), 100);
+      if (SD.begin(SDCS_PIN))
         break;
     }
   }
@@ -155,71 +147,44 @@ void LED_Fix_Type() {
     digitalWrite(PIN_PD6, HIGH);
   }
 }
-void Read_Battery_Voltage() {
-  float ADC_Constant = 0.004882812; // This is 5/1024
+
+
+double analogReadScaled(uint8_t pin, uint16_t scale) {
+  double output = 0; 
   for (int i = 0; i < 100; i++) {
-    Bat = Bat + analogRead(BATT_PIN);
+    output += analogRead(pin);
   }
-  Bat = Bat / 100;          // Averges the value
-  Bat = Bat * ADC_Constant; // Converts to voltage for 5v Arduino
+
+  output /= double(100);
+  output *= scale;
+  output /= double(1024);
+  
+  return output;
 }
-void Read_3v3_Supply() {
-  int i;
-  float ADC_Constant = 0.004882812; // This is 5/1024
-  for (i = 0; i < 100; i++) {
-    t3v3 = t3v3 + analogRead(T3v3_PIN);
-  }
-  t3v3 = t3v3 / 100;          // Averges the value
-  t3v3 = t3v3 * ADC_Constant; // Converts to voltage for 5v Arduino
+
+void readAnalogSensors() {
+  Bat = analogReadScaled(BATT_PIN, 5);
+  t3v3 = analogReadScaled(T3v3_PIN, 5);
+  f5v = analogReadScaled(F5vS_PIN, 5);
+  f5vI = analogReadScaled(F5vI_PIN, 5);
+
+  Aint = analogReadScaled(ITMP_PIN, 5000);
+  Aint = ((Aint - 1034) / double(-5.58));
+
+  Aext = analogReadScaled(ETMP_PIN, 5000);
+  Aext = ((Aext - 1034) / double(-5.58));
+
 }
-void Read_5v_Supply() {
-  int i;
-  float ADC_Constant = 0.004882812; // This is 5/1024
-  for (i = 0; i < 100; i++) {
-    f5v = f5v + analogRead(F5vS_PIN);
-  }
-  f5v = f5v / 100;          // Averges the value
-  f5v = f5v * ADC_Constant; // Converts to voltage for 5v Arduino
-}
-void Read_5vI_Supply() {
-  int i;
-  float ADC_Constant = 0.004882812; // This is 5/1024
-  for (i = 0; i < 100; i++) {
-    f5vI = f5vI + analogRead(F5vI_PIN);
-  }
-  f5vI = f5vI / 100;          // Averges the value
-  f5vI = f5vI * ADC_Constant; // Converts to voltage for 5v Arduino
-}
-void Read_Aint_Temp() {
-  int i;
-  float val = 0;
-  float ADC_Constant = 4.88281; // This is 5000/1024
-  for (i = 0; i < 100; i++) {
-    val = val + analogRead(ITMP_PIN);
-  }
-  val = val / 100;                 // Averges the value
-  val = val * ADC_Constant;        // Converts to voltage for 5v Arduino
-  Aint = ((val - 1034) / (-5.58)); // Converts to Temperature in C for a
-                                   // calibration range of 0 to 100 C
-}
-void Read_Aext_Temp() {
-  int i;
-  float val = 0;
-  float ADC_Constant = 4.88281; // This is 5000/1024
-  for (i = 0; i < 100; i++) {
-    val = val + analogRead(ETMP_PIN);
-  }
-  val = val / 100;                 // Averges the value
-  val = val * ADC_Constant;        // Converts to voltage for 5v Arduino
-  Aext = ((val - 1034) / (-5.58)); // Converts to Temperature in C for a
-                                   // calibration range of 0 to 100 C
-}
+
+
 void Read_Pressure_Module() {
   sensor.ReadProm();
   sensor.Readout();
-  Pres_Temp = (sensor.GetTemp() / 100);
-  pressure = (sensor.GetPres() / 100);
+  Pres_Temp = (sensor.GetTemp() / double(100));
+  pressure = (sensor.GetPres() / double(100));
 }
+
+
 void Read_Dint_Temp() {
   uint8_t data[2];
   int16_t datac;
@@ -235,6 +200,8 @@ void Read_Dint_Temp() {
     Dint = datac * 0.0078125;           // converts to celsius (7.8125 mC res);
   }
 }
+
+
 void Read_Dext_Temp() {
   uint8_t data[2];
   int16_t datac;
@@ -250,6 +217,8 @@ void Read_Dext_Temp() {
     Dext = datac * 0.0078125;           // converts to celsius (7.8125 mC res);
   }
 }
+
+
 void Read_Accelerometer_Mag() {
   sensors_event_t event;
   accel.getEvent(&event); // gets measurement
@@ -287,6 +256,8 @@ void Read_Accelerometer_Mag() {
     yaw = 360 + yaw;
   }
 }
+
+
 //***************Data Sending & Storing ************************
 void Store_Data() {
   File dataFile = SD.open("payload.csv", FILE_WRITE);
@@ -434,12 +405,7 @@ void loop() {
   pulseLED(PIN_PD7, 1, 100);
   Read_GPS();
   LED_Fix_Type();
-  Read_Battery_Voltage();
-  Read_3v3_Supply();
-  Read_5v_Supply();
-  Read_5vI_Supply();
-  Read_Aint_Temp();
-  Read_Aext_Temp();
+  readAnalogSensors();
   Read_Pressure_Module();
   Read_Dint_Temp();
   Read_Dext_Temp();

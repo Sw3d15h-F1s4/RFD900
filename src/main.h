@@ -1,14 +1,33 @@
+// RFD900 Code
+// Created by Montana University's NEBP eclipse team
+// Heavily modified by Sam Thuransky at Penn State NEBP
+
+/**
+D1
+D2 - +3.3V for other shit
+D3
+D4 - +5V for MCU and LSM303
+D5 - +5V for RADIO
+D6 - LED1 - 45 (PD2) - GPS
+D7 - LED2 - 46 (PD3) - SD CARD
+D8 - same as D2
+D9 - same as D4
+D10 - LED3 - 47 (PD4) - LSM303 accel
+D11 - LED4 - 48 (PD5) - LSM303 mag
+D12 - LED5 - 49 (PD6) - GPS status
+D13 - LED6 - 50 (PD7) - ticker
+**/
 
 #include <Arduino.h>
 
 #include <math.h>
-#include <SparkFun_u-blox_GNSS_Arduino_Library.h>  //http://librarymanager/All#SparkFun_u-blox_GNSS
+#include <SparkFun_u-blox_GNSS_Arduino_Library.h>  
 #include <MS5xxx.h>
 #include <Wire.h>
 #include <SPI.h>
 #include <SD.h>
 #include <Adafruit_LSM303_Accel.h>
-#include <Adafruit_LIS2MDL.h> //#include <Adafruit_LSM303AGR_Mag.h>
+#include <Adafruit_LIS2MDL.h> 
 #include <Adafruit_Sensor.h>
 
 SFE_UBLOX_GNSS myGPS;
@@ -17,7 +36,7 @@ MS5xxx sensor(&Wire);
 //Pin Assignments
 #define BATT_PIN PIN_PF1 //Battery Monitor Pin 
 #define T3v3_PIN PIN_PK1 //3v3 rail monitor
-#define F5VS_PIN PIN_PK2 //5v rail monitor
+#define F5vS_PIN PIN_PK2 //5v rail monitor
 #define F5vI_PIN PIN_PK3 //5v internal rail monitor
 #define ITMP_PIN PIN_PF2 //Internal Temperature monitor
 #define ETMP_PIN PIN_PF0 //External Temperature monitor
@@ -45,20 +64,20 @@ long NedEastVel;
 long NedDownVel;
 
 //Power Data
-float Bat = 0;
-float t3v3 = 0;
-float f5v = 0;
-float f5vI = 0;
+double Bat = 0;
+double t3v3 = 0;
+double f5v = 0;
+double f5vI = 0;
 
 //Temperature Data
-float Aint;
-float Aext;
-float Pres_Temp;
-float Dint;
-float Dext;
+double Aint;
+double Aext;
+double Pres_Temp;
+double Dint;
+double Dext;
 
 //Pressure Data
-float pressure;
+double pressure;
 
 //Digital Temperature Sensor Constants and Variables
 const int tmp_addr = 0x48;
@@ -99,15 +118,11 @@ void Read_GPS();
 
 void LED_Fix_Type();
 
-void Read_Battery_Voltage();
-
-void Read_3v3_Supply();
-
-void Read_5vI_Supply();
-
-void Read_Aint_Temp();
-
-void Read_Aext_Temp();
+/**
+ * samples specified analog pin 100 times and takes an average.
+ * then scales the output to a range (0, scale) inclusive.
+ */
+double analogReadScaled(uint8_t pin, uint16_t scale);
 
 void Read_Pressure_Module();
 
