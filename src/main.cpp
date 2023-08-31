@@ -66,7 +66,7 @@ void gpsSetup()
 void sdCardSetup()
 {
   pulseLED(PIN_PD3, 4, 100);
-
+  
   if (!SD.begin(SDCS_PIN))
   {
     Serial.println("Card failed, or not present"); // don't do anything more:
@@ -80,7 +80,7 @@ void sdCardSetup()
         break;
     }
   }
-
+  
   Serial.println("card initialized.");
   // Create header for our CSV file
   File dataFile = SD.open("payload.csv", FILE_WRITE);
@@ -172,9 +172,9 @@ double analogReadScaled(uint8_t pin, uint16_t scale)
     output += analogRead(pin);
   }
 
-  output /= double(100);
+  output /= (double) 100;
   output *= scale;
-  output /= double(1024);
+  output /= (double) 1024;
 
   return output;
 }
@@ -197,8 +197,8 @@ void Read_Pressure_Module()
 {
   sensor.ReadProm();
   sensor.Readout();
-  Pres_Temp = (sensor.GetTemp() / double(100));
-  pressure = (sensor.GetPres() / double(100));
+  Pres_Temp = (sensor.GetTemp() / (double) 100);
+  pressure = (sensor.GetPres() / (double) 100);
 }
 
 void Read_Dint_Temp()
