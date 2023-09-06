@@ -278,7 +278,7 @@ void Read_Accelerometer_Mag()
 }
 
 //***************Data Sending & Storing ************************
-void Store_Data()
+void storeData()
 {
   File dataFile = SD.open("payload.csv", FILE_WRITE);
   // if the file is available, write to it:
@@ -355,7 +355,7 @@ void Store_Data()
   }
   dataFile.close();
 }
-void Send_Data()
+void sendData()
 {
   Serial.print(packet);
   Serial.print(',');
@@ -434,8 +434,8 @@ void loop()
   Read_Dint_Temp();
   Read_Dext_Temp();
   Read_Accelerometer_Mag();
-  Store_Data();
-  Send_Data();
+  storeData();
+  sendData();
   // Send_Data();
   // Keep track of packets being sent
   packet = packet + 1;
